@@ -1,27 +1,27 @@
 # esx_clotheshop
 
-## Requirements
-- [esx_skin](https://github.com/ESX-Org/esx_clotheshop)
+## Requisitos
+- [esx_skin](https://github.com/ESX-brasil/esx_skin)
 
-## Download & Installation
+## Download e Instalação
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
+### Usando o [fvm](https://github.com/qlaffont/fvm-installer)
 ```
-fvm install --save --folder=esx esx-org/esx_clotheshop
+fvm install --save --folder=esx esx-brasil/esx_clotheshop
 ```
 
-### Using Git
+### Usando o Git
 ```
 cd resources
-git clone https://github.com/ESX-Org/esx_clotheshop [esx]/esx_clotheshop
+git clone https://github.com/ESX-Brasil/esx_clotheshop [esx]/esx_clotheshop
 ```
 
-### Manually
-- Download https://github.com/ESX-Org/esx_clotheshop/archive/master.zip
-- Put it in the `[esx]` directory
+### Manualmente
+- Download https://github.com/ESX-Brasil/esx_clotheshop/archive/master.zip
+- Coloque-o no diretório `[esx]`
 
-## Installation
-- Add this in your `server.cfg`:
+## Instalação
+- Adicione isto ao seu `server.cfg`:
 
 ```
 start esx_clotheshop
@@ -31,7 +31,7 @@ start esx_clotheshop
 ### License
 esx_clotheshop - clothing store
 
-Copyright (C) 2015-2018 Jérémie N'gadi
+Copyright (C) 2015-2019 ESX-Brasil
 
 This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
 

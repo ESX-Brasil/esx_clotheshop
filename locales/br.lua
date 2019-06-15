@@ -1,4 +1,5 @@
 Locales['br'] = {
+	-- Tradução pt-BR
 	['valid_this_purchase'] = 'validar esta compra?',
 	['yes'] = 'sim',
 	['no'] = 'não',

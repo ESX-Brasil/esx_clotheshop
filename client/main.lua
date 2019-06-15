@@ -153,7 +153,7 @@ AddEventHandler('esx_clotheshop:hasExitedMarker', function(zone)
 	end
 end)
 
--- Create Blips
+-- Criar Blips
 Citizen.CreateThread(function()
 	for i=1, #Config.Shops, 1 do
 		local blip = AddBlipForCoord(Config.Shops[i].x, Config.Shops[i].y, Config.Shops[i].z)
@@ -170,7 +170,7 @@ Citizen.CreateThread(function()
 	end
 end)
 
--- Display markers
+-- Mostrar marcadores
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(1)
@@ -185,7 +185,7 @@ Citizen.CreateThread(function()
 	end
 end)
 
--- Enter / Exit marker events
+-- Enter / Sair dos eventos do marcador
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(100)
@@ -214,7 +214,7 @@ Citizen.CreateThread(function()
 	end
 end)
 
--- Key controls
+-- Controles
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)

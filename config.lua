@@ -1,7 +1,7 @@
 Config = {}
-Config.Locale = 'fr'
+Config.Locale = 'br'
 
-Config.Price = 250
+Config.Price = 250 -- Valor das roupas da loja.
 
 Config.DrawDistance = 100.0
 Config.MarkerSize   = {x = 1.5, y = 1.5, z = 1.0}
