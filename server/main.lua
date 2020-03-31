@@ -1,11 +1,14 @@
+--       Licensed under: AGPLv3        --
+--  GNU AFFERO GENERAL PUBLIC LICENSE  --
+--      Version 1.1.2, 31.03.2020      --
+
 ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 RegisterServerEvent('esx_clotheshop:saveOutfit')
 AddEventHandler('esx_clotheshop:saveOutfit', function(label, skin)
-	local _source = source
-	local xPlayer = ESX.GetPlayerFromId(_source)
+	local xPlayer = ESX.GetPlayerFromId(source)
 
 	TriggerEvent('esx_datastore:getDataStore', 'property', xPlayer.identifier, function(store)
 		local dressing = store.get('dressing')
@@ -20,7 +23,6 @@ AddEventHandler('esx_clotheshop:saveOutfit', function(label, skin)
 		})
 
 		store.set('dressing', dressing)
-		store.save()
 	end)
 end)
 

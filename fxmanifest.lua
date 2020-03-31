@@ -1,8 +1,14 @@
-resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+--       Licensed under: AGPLv3        --
+--  GNU AFFERO GENERAL PUBLIC LICENSE  --
+--      Version 1.1.2, 31.03.2020      --
 
-description 'ESX ClotheShop'
+fx_version 'adamant'
 
-version '1.1.1'
+game 'gta5'
+
+description 'ESX Clothes Shop'
+
+version '1.1.2'
 
 server_scripts {
 	'@mysql-async/lib/MySQL.lua',

@@ -27,11 +27,15 @@ git clone https://github.com/ESX-Brasil/esx_clotheshop [esx]/esx_clotheshop
 start esx_clotheshop
 ```
 
+# Discord
+
+[![Join ESX Brasil](https://discordapp.com/api/guilds/693468263161659402/embed.png?style=banner2)](https://discord.gg/ZGXTsdN)
+
 # Legal
 ### License
 esx_clotheshop - clothing store
 
-Copyright (C) 2015-2019 ESX-Brasil
+Copyright (C) 2015-2020 ESX-Brasil
 
 This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
 
